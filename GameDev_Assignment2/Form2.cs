@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace GameDev_Assignment2
 {
-    public partial class Form1 : Form
+    public partial class Alphabet : Form
     {
-        public Form1()
+        public Alphabet()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Alphabet a2 = new Alphabet();
-            a2.Show();
-            Visible = false;
         }
     }
 }
