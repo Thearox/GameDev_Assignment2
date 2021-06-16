@@ -16,5 +16,22 @@ namespace GameDev_Assignment2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void alphabetButton24_Click(object sender, EventArgs e)
+        {
+ 
+        }
+
+        private void alphabetBackButton_Click_1(object sender, EventArgs e)
+        {
+            Form1 a2 = new Form1();
+            a2.Show();
+            this.Hide();
+        }
     }
 }
