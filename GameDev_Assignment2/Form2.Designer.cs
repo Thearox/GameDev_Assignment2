@@ -69,6 +69,7 @@ namespace GameDev_Assignment2
             this.alphabetButton1.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton1.TabIndex = 0;
             this.alphabetButton1.UseVisualStyleBackColor = true;
+            this.alphabetButton1.Click += new System.EventHandler(this.alphabetButton1_Click);
             // 
             // alphabetButton2
             // 
@@ -78,6 +79,7 @@ namespace GameDev_Assignment2
             this.alphabetButton2.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton2.TabIndex = 1;
             this.alphabetButton2.UseVisualStyleBackColor = true;
+            this.alphabetButton2.Click += new System.EventHandler(this.alphabetButton2_Click);
             // 
             // alphabetButton3
             // 
@@ -87,6 +89,7 @@ namespace GameDev_Assignment2
             this.alphabetButton3.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton3.TabIndex = 2;
             this.alphabetButton3.UseVisualStyleBackColor = true;
+            this.alphabetButton3.Click += new System.EventHandler(this.alphabetButton3_Click);
             // 
             // alphabetButton4
             // 
@@ -96,7 +99,7 @@ namespace GameDev_Assignment2
             this.alphabetButton4.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton4.TabIndex = 3;
             this.alphabetButton4.UseVisualStyleBackColor = true;
-            this.alphabetButton4.Click += new System.EventHandler(this.button1_Click);
+            this.alphabetButton4.Click += new System.EventHandler(this.alphabetButton4_Click);
             // 
             // alphabetButton5
             // 
@@ -106,6 +109,7 @@ namespace GameDev_Assignment2
             this.alphabetButton5.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton5.TabIndex = 4;
             this.alphabetButton5.UseVisualStyleBackColor = true;
+            this.alphabetButton5.Click += new System.EventHandler(this.alphabetButton5_Click);
             // 
             // alphabetButton6
             // 
@@ -115,6 +119,7 @@ namespace GameDev_Assignment2
             this.alphabetButton6.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton6.TabIndex = 5;
             this.alphabetButton6.UseVisualStyleBackColor = true;
+            this.alphabetButton6.Click += new System.EventHandler(this.alphabetButton6_Click);
             // 
             // alphabetButton7
             // 
@@ -124,6 +129,7 @@ namespace GameDev_Assignment2
             this.alphabetButton7.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton7.TabIndex = 6;
             this.alphabetButton7.UseVisualStyleBackColor = true;
+            this.alphabetButton7.Click += new System.EventHandler(this.alphabetButton7_Click);
             // 
             // alphabetButton8
             // 
@@ -133,6 +139,7 @@ namespace GameDev_Assignment2
             this.alphabetButton8.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton8.TabIndex = 7;
             this.alphabetButton8.UseVisualStyleBackColor = true;
+            this.alphabetButton8.Click += new System.EventHandler(this.alphabetButton8_Click);
             // 
             // alphabetButton9
             // 
@@ -142,6 +149,7 @@ namespace GameDev_Assignment2
             this.alphabetButton9.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton9.TabIndex = 8;
             this.alphabetButton9.UseVisualStyleBackColor = true;
+            this.alphabetButton9.Click += new System.EventHandler(this.alphabetButton9_Click);
             // 
             // alphabetButton10
             // 
@@ -151,6 +159,7 @@ namespace GameDev_Assignment2
             this.alphabetButton10.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton10.TabIndex = 9;
             this.alphabetButton10.UseVisualStyleBackColor = true;
+            this.alphabetButton10.Click += new System.EventHandler(this.alphabetButton10_Click);
             // 
             // alphabetButton11
             // 
@@ -160,6 +169,7 @@ namespace GameDev_Assignment2
             this.alphabetButton11.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton11.TabIndex = 10;
             this.alphabetButton11.UseVisualStyleBackColor = true;
+            this.alphabetButton11.Click += new System.EventHandler(this.alphabetButton11_Click);
             // 
             // alphabetButton12
             // 
@@ -169,6 +179,7 @@ namespace GameDev_Assignment2
             this.alphabetButton12.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton12.TabIndex = 11;
             this.alphabetButton12.UseVisualStyleBackColor = true;
+            this.alphabetButton12.Click += new System.EventHandler(this.alphabetButton12_Click);
             // 
             // alphabetButton13
             // 
@@ -178,6 +189,7 @@ namespace GameDev_Assignment2
             this.alphabetButton13.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton13.TabIndex = 12;
             this.alphabetButton13.UseVisualStyleBackColor = true;
+            this.alphabetButton13.Click += new System.EventHandler(this.alphabetButton13_Click);
             // 
             // alphabetButton14
             // 
@@ -187,6 +199,7 @@ namespace GameDev_Assignment2
             this.alphabetButton14.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton14.TabIndex = 13;
             this.alphabetButton14.UseVisualStyleBackColor = true;
+            this.alphabetButton14.Click += new System.EventHandler(this.alphabetButton14_Click);
             // 
             // alphabetButton15
             // 
@@ -196,6 +209,7 @@ namespace GameDev_Assignment2
             this.alphabetButton15.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton15.TabIndex = 14;
             this.alphabetButton15.UseVisualStyleBackColor = true;
+            this.alphabetButton15.Click += new System.EventHandler(this.alphabetButton15_Click);
             // 
             // alphabetButton16
             // 
@@ -205,6 +219,7 @@ namespace GameDev_Assignment2
             this.alphabetButton16.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton16.TabIndex = 15;
             this.alphabetButton16.UseVisualStyleBackColor = true;
+            this.alphabetButton16.Click += new System.EventHandler(this.alphabetButton16_Click);
             // 
             // alphabetButton17
             // 
@@ -214,6 +229,7 @@ namespace GameDev_Assignment2
             this.alphabetButton17.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton17.TabIndex = 16;
             this.alphabetButton17.UseVisualStyleBackColor = true;
+            this.alphabetButton17.Click += new System.EventHandler(this.alphabetButton17_Click);
             // 
             // alphabetButton18
             // 
@@ -223,6 +239,7 @@ namespace GameDev_Assignment2
             this.alphabetButton18.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton18.TabIndex = 17;
             this.alphabetButton18.UseVisualStyleBackColor = true;
+            this.alphabetButton18.Click += new System.EventHandler(this.alphabetButton18_Click);
             // 
             // alphabetButton19
             // 
@@ -232,6 +249,7 @@ namespace GameDev_Assignment2
             this.alphabetButton19.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton19.TabIndex = 18;
             this.alphabetButton19.UseVisualStyleBackColor = true;
+            this.alphabetButton19.Click += new System.EventHandler(this.alphabetButton19_Click);
             // 
             // alphabetButton20
             // 
@@ -241,6 +259,7 @@ namespace GameDev_Assignment2
             this.alphabetButton20.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton20.TabIndex = 19;
             this.alphabetButton20.UseVisualStyleBackColor = true;
+            this.alphabetButton20.Click += new System.EventHandler(this.alphabetButton20_Click);
             // 
             // alphabetButton21
             // 
@@ -250,6 +269,7 @@ namespace GameDev_Assignment2
             this.alphabetButton21.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton21.TabIndex = 20;
             this.alphabetButton21.UseVisualStyleBackColor = true;
+            this.alphabetButton21.Click += new System.EventHandler(this.alphabetButton21_Click);
             // 
             // alphabetButton22
             // 
@@ -259,6 +279,7 @@ namespace GameDev_Assignment2
             this.alphabetButton22.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton22.TabIndex = 21;
             this.alphabetButton22.UseVisualStyleBackColor = true;
+            this.alphabetButton22.Click += new System.EventHandler(this.alphabetButton22_Click);
             // 
             // alphabetButton23
             // 
@@ -268,6 +289,7 @@ namespace GameDev_Assignment2
             this.alphabetButton23.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton23.TabIndex = 22;
             this.alphabetButton23.UseVisualStyleBackColor = true;
+            this.alphabetButton23.Click += new System.EventHandler(this.alphabetButton23_Click);
             // 
             // alphabetButton24
             // 
@@ -287,6 +309,7 @@ namespace GameDev_Assignment2
             this.alphabetButton25.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton25.TabIndex = 24;
             this.alphabetButton25.UseVisualStyleBackColor = true;
+            this.alphabetButton25.Click += new System.EventHandler(this.alphabetButton25_Click);
             // 
             // alphabetButton26
             // 
@@ -296,6 +319,7 @@ namespace GameDev_Assignment2
             this.alphabetButton26.Size = new System.Drawing.Size(75, 75);
             this.alphabetButton26.TabIndex = 25;
             this.alphabetButton26.UseVisualStyleBackColor = true;
+            this.alphabetButton26.Click += new System.EventHandler(this.alphabetButton26_Click);
             // 
             // learnAlphabetTitle
             // 

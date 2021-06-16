@@ -33,3 +33,15 @@ C:\Users\User\Documents\Github\GameDev_Assignment2\GameDev_Assignment2\obj\Debug
 C:\Users\User\Documents\Github\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\Github\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.exe
 C:\Users\User\Documents\Github\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.pdb
+C:\Users\Lenovo\Source\Repos\GameDev_Assignment2\GameDev_Assignment2\bin\Debug\GameDev_Assignment2.exe
+C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\bin\Debug\GameDev_Assignment2.exe.config
+C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.Form1.resources
+C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.Alphabet.resources
+C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.Splash_Screen.resources
+C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.exe
+C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.pdb
+C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\bin\Debug\GameDev_Assignment2.pdb
+C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.csprojAssemblyReference.cache
