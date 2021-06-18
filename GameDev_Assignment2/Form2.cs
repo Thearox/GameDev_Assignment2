@@ -24,17 +24,17 @@ namespace GameDev_Assignment2
         private void alphabetButton4_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\dfordeur.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.dfordeur);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton4.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Deur.jpg");
+                alphabetButton4.Image = Properties.Resources.Deur;
                 isClicked = true;
             }
             else
             {
-                alphabetButton4.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\D.jpg");
+                alphabetButton4.Image = Properties.Resources.D;
                 isClicked = false;
             }
 
@@ -43,17 +43,17 @@ namespace GameDev_Assignment2
         private void alphabetButton24_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\xforxilofoon.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.xforxilofoon);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton24.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Xilofoon.jpg");
+                alphabetButton24.Image = Properties.Resources.Xilofoon;
                 isClicked = true;
             }
             else
             {
-                alphabetButton24.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\X.jpg");
+                alphabetButton24.Image = Properties.Resources.X;
                 isClicked = false;
             }
         }
@@ -68,17 +68,17 @@ namespace GameDev_Assignment2
         private void alphabetButton1_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\aforappel.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.aforappel);
                 splayer.Play();
             }
            if (!isClicked)
             {
-                alphabetButton1.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Appel.jpg");
+                alphabetButton1.Image = Properties.Resources.Appel;
                 isClicked = true;
             }
             else
             {
-                alphabetButton1.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\A.jpg");
+                alphabetButton1.Image = Properties.Resources.A;
                 isClicked = false;
             }
            
@@ -89,17 +89,17 @@ namespace GameDev_Assignment2
         private void alphabetButton2_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\bforbed.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.bforbed);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton2.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Bed.jpg");
+                alphabetButton2.Image = Properties.Resources.Bed;
                 isClicked = true;
             }
             else
             {
-                alphabetButton2.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\B.jpg");
+                alphabetButton2.Image = Properties.Resources.B;
                 isClicked = false;
             }
 
@@ -108,17 +108,17 @@ namespace GameDev_Assignment2
         private void alphabetButton5_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\eforeend.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.eforeend);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton5.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Eend.jpg");
+                alphabetButton5.Image = Properties.Resources.Eend;
                 isClicked = true;
             }
             else
             {
-                alphabetButton5.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\E.jpg");
+                alphabetButton5.Image = Properties.Resources.E;
                 isClicked = false;
             }
 
@@ -127,17 +127,17 @@ namespace GameDev_Assignment2
         private void alphabetButton6_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\fforflamink.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.fforflamink);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton6.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Flamink.jpg");
+                alphabetButton6.Image = Properties.Resources.Flamink;
                 isClicked = true;
             }
             else
             {
-                alphabetButton6.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\F.jpg");
+                alphabetButton6.Image = Properties.Resources.F;
                 isClicked = false;
             }
 
@@ -146,17 +146,17 @@ namespace GameDev_Assignment2
         private void alphabetButton7_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\gforgras.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.gforgras);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton7.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Gras.jpg");
+                alphabetButton7.Image = Properties.Resources.Gras;
                 isClicked = true;
             }
             else
             {
-                alphabetButton7.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\G.jpg");
+                alphabetButton7.Image = Properties.Resources.G;
                 isClicked = false;
             }
 
@@ -165,17 +165,17 @@ namespace GameDev_Assignment2
         private void alphabetButton8_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\hforhuis.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.hforhuis);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton8.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Huis.jpg");
+                alphabetButton8.Image = Properties.Resources.Huis;
                 isClicked = true;
             }
             else
             {
-                alphabetButton8.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\H.jpg");
+                alphabetButton8.Image = Properties.Resources.H;
                 isClicked = false;
             }
 
@@ -184,17 +184,17 @@ namespace GameDev_Assignment2
         private void alphabetButton9_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\iforigloo.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.iforigloo);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton9.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Igloo.jpg");
+                alphabetButton9.Image = Properties.Resources.Igloo;
                 isClicked = true;
             }
             else
             {
-                alphabetButton9.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\I.jpg");
+                alphabetButton9.Image = Properties.Resources.I;
                 isClicked = false;
             }
 
@@ -203,17 +203,17 @@ namespace GameDev_Assignment2
         private void alphabetButton10_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\jforjas.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.jforjas);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton10.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Jas.jpg");
+                alphabetButton10.Image = Properties.Resources.Jas;
                 isClicked = true;
             }
             else
             {
-                alphabetButton10.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\J.jpg");
+                alphabetButton10.Image = Properties.Resources.J;
                 isClicked = false;
             }
 
@@ -222,17 +222,17 @@ namespace GameDev_Assignment2
         private void alphabetButton11_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\kforkar.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.kforkar);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton11.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Kar.jpg");
+                alphabetButton11.Image = Properties.Resources.Kar;
                 isClicked = true;
             }
             else
             {
-                alphabetButton11.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\K.jpg");
+                alphabetButton11.Image = Properties.Resources.K;
                 isClicked = false;
             }
 
@@ -241,17 +241,17 @@ namespace GameDev_Assignment2
         private void alphabetButton12_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\lforleer.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.lforleer);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton12.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Leer.jpg");
+                alphabetButton12.Image = Properties.Resources.Leer;
                 isClicked = true;
             }
             else
             {
-                alphabetButton12.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\L.jpg");
+                alphabetButton12.Image = Properties.Resources.L;
                 isClicked = false;
             }
 
@@ -260,17 +260,17 @@ namespace GameDev_Assignment2
         private void alphabetButton13_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\mformuur.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.mformuur);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton13.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Muur.jpg");
+                alphabetButton13.Image = Properties.Resources.Muur;
                 isClicked = true;
             }
             else
             {
-                alphabetButton13.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\M.jpg");
+                alphabetButton13.Image = Properties.Resources.M;
                 isClicked = false;
             }
 
@@ -279,17 +279,17 @@ namespace GameDev_Assignment2
         private void alphabetButton14_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\nforneus.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.nforneus);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton14.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Neus.jpg");
+                alphabetButton14.Image = Properties.Resources.Neus;
                 isClicked = true;
             }
             else
             {
-                alphabetButton14.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\N.jpg");
+                alphabetButton14.Image = Properties.Resources.N;
                 isClicked = false;
             }
 
@@ -298,17 +298,17 @@ namespace GameDev_Assignment2
         private void alphabetButton15_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\oforoor.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.oforoor);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton15.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Oor.jpg");
+                alphabetButton15.Image = Properties.Resources.Oor;
                 isClicked = true;
             }
             else
             {
-                alphabetButton15.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\O.jpg");
+                alphabetButton15.Image = Properties.Resources.O;
                 isClicked = false;
             }
 
@@ -317,17 +317,17 @@ namespace GameDev_Assignment2
         private void alphabetButton16_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\pforpan.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.pforpan);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton16.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Pan.jpg");
+                alphabetButton16.Image = Properties.Resources.Pan;
                 isClicked = true;
             }
             else
             {
-                alphabetButton16.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\P.jpg");
+                alphabetButton16.Image = Properties.Resources.P;
                 isClicked = false;
             }
 
@@ -336,17 +336,17 @@ namespace GameDev_Assignment2
         private void alphabetButton18_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\rforring.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.rforring);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton18.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Ring.jpg");
+                alphabetButton18.Image = Properties.Resources.Ring;
                 isClicked = true;
             }
             else
             {
-                alphabetButton18.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\R.jpg");
+                alphabetButton18.Image = Properties.Resources.R;
                 isClicked = false;
             }
 
@@ -355,17 +355,17 @@ namespace GameDev_Assignment2
         private void alphabetButton19_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\sforsop.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.sforsop);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton19.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Sop.jpg");
+                alphabetButton19.Image = Properties.Resources.Sop;
                 isClicked = true;
             }
             else
             {
-                alphabetButton19.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\S.jpg");
+                alphabetButton19.Image = Properties.Resources.S;
                 isClicked = false;
             }
 
@@ -374,17 +374,17 @@ namespace GameDev_Assignment2
         private void alphabetButton20_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\tfortier.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.tfortier);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton20.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Tier.jpg");
+                alphabetButton20.Image = Properties.Resources.Tier;
                 isClicked = true;
             }
             else
             {
-                alphabetButton20.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\T.jpg");
+                alphabetButton20.Image = Properties.Resources.T;
                 isClicked = false;
             }
 
@@ -393,17 +393,17 @@ namespace GameDev_Assignment2
         private void alphabetButton22_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\vforvuur.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.vforvuur);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton22.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Vuur.jpg");
+                alphabetButton22.Image = Properties.Resources.Vuur;
                 isClicked = true;
             }
             else
             {
-                alphabetButton22.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\V.jpg");
+                alphabetButton22.Image = Properties.Resources.V;
                 isClicked = false;
             }
 
@@ -412,17 +412,17 @@ namespace GameDev_Assignment2
         private void alphabetButton23_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\wforwater.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.wforwater);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton23.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Water.jpg");
+                alphabetButton23.Image = Properties.Resources.Water;
                 isClicked = true;
             }
             else
             {
-                alphabetButton23.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\W.jpg");
+                alphabetButton23.Image = Properties.Resources.W;
                 isClicked = false;
             }
 
@@ -431,17 +431,17 @@ namespace GameDev_Assignment2
         private void alphabetButton25_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\yforys.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.yforys);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton25.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Ys.jpg");
+                alphabetButton25.Image = Properties.Resources.Ys;
                 isClicked = true;
             }
             else
             {
-                alphabetButton25.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\Y.jpg");
+                alphabetButton25.Image = Properties.Resources.Y;
                 isClicked = false;
             }
 
@@ -450,17 +450,17 @@ namespace GameDev_Assignment2
         private void alphabetButton3_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\cforchloor.wav");
+                SoundPlayer splayer = new SoundPlayer(@Properties.Resources.cforchloor);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton3.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Chloor.jpg");
+                alphabetButton3.Image = Properties.Resources.Chloor;
                 isClicked = true;
             }
             else
             {
-                alphabetButton3.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\C.jpg");
+                alphabetButton3.Image = Properties.Resources.C;
                 isClicked = false;
             }
         }
@@ -468,17 +468,17 @@ namespace GameDev_Assignment2
         private void alphabetButton21_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\uforuurglas.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.uforuurglas);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton21.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Uurglas.jpg");
+                alphabetButton21.Image = Properties.Resources.Uurglas;
                 isClicked = true;
             }
             else
             {
-                alphabetButton21.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\U.jpg");
+                alphabetButton21.Image = Properties.Resources.U;
                 isClicked = false;
             }
         }
@@ -486,17 +486,17 @@ namespace GameDev_Assignment2
         private void alphabetButton26_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\zforzero.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.zforzero);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton26.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Zero.jpg");
+                alphabetButton26.Image = Properties.Resources.Zero;
                 isClicked = true;
             }
             else
             {
-                alphabetButton26.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\Z.jpg");
+                alphabetButton26.Image = Properties.Resources.Z;
                 isClicked = false;
             }
         }
@@ -504,19 +504,24 @@ namespace GameDev_Assignment2
         private void alphabetButton17_Click(object sender, EventArgs e)
         {
             {
-                SoundPlayer splayer = new SoundPlayer(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\audio\qforquisling.wav");
+                SoundPlayer splayer = new SoundPlayer(Properties.Resources.qforquisling);
                 splayer.Play();
             }
             if (!isClicked)
             {
-                alphabetButton17.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\photos\Quisling.jpg");
+                alphabetButton17.Image = Properties.Resources.Quisling;
                 isClicked = true;
             }
             else
             {
-                alphabetButton17.Image = Image.FromFile(@"C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\Resources\Q.jpg");
+                alphabetButton17.Image = Properties.Resources.Q;
                 isClicked = false;
             }
+        }
+
+        private void Alphabet_Load(object sender, EventArgs e)
+        {
+
         }
     }
     }

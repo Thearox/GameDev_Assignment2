@@ -23,5 +23,17 @@ namespace GameDev_Assignment2
             a2.Show();
             Visible = false;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Words a2 = new Words();
+            a2.Show();
+            Visible = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

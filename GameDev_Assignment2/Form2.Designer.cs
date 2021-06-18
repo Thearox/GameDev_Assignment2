@@ -380,6 +380,7 @@ namespace GameDev_Assignment2
             this.Controls.Add(this.alphabetButton1);
             this.Name = "Alphabet";
             this.Text = "Alphabet";
+            this.Load += new System.EventHandler(this.Alphabet_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

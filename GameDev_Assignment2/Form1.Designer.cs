@@ -36,31 +36,36 @@ namespace GameDev_Assignment2
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(309, 123);
+            this.button1.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.LearnAlphabet;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(309, 112);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(254, 45);
+            this.button1.Size = new System.Drawing.Size(254, 56);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Learn Alphabet";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(309, 188);
+            this.button2.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.LearnWords;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Location = new System.Drawing.Point(309, 189);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(254, 45);
+            this.button2.Size = new System.Drawing.Size(254, 55);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(309, 251);
+            this.button3.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.TestYourKnowledge;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Location = new System.Drawing.Point(309, 269);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(254, 45);
+            this.button3.Size = new System.Drawing.Size(254, 54);
             this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
