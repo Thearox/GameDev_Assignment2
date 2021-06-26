@@ -445,6 +445,16 @@ namespace GameDev_Assignment2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bruin5 {
+            get {
+                object obj = ResourceManager.GetObject("Bruin5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bruinn {
             get {
                 object obj = ResourceManager.GetObject("Bruinn", resourceCulture);
@@ -536,6 +546,16 @@ namespace GameDev_Assignment2.Properties {
         internal static System.IO.UnmanagedMemoryStream drie3 {
             get {
                 return ResourceManager.GetStream("drie3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Drie5 {
+            get {
+                object obj = ResourceManager.GetObject("Drie5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -1138,6 +1158,16 @@ namespace GameDev_Assignment2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Mond5 {
+            get {
+                object obj = ResourceManager.GetObject("Mond5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mondd {
             get {
                 object obj = ResourceManager.GetObject("Mondd", resourceCulture);
@@ -1229,6 +1259,16 @@ namespace GameDev_Assignment2.Properties {
         internal static System.IO.UnmanagedMemoryStream neus3 {
             get {
                 return ResourceManager.GetStream("neus3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Neus5 {
+            get {
+                object obj = ResourceManager.GetObject("Neus5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -1476,6 +1516,16 @@ namespace GameDev_Assignment2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Oog5 {
+            get {
+                object obj = ResourceManager.GetObject("Oog5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Oogg {
             get {
                 object obj = ResourceManager.GetObject("Oogg", resourceCulture);
@@ -1518,6 +1568,16 @@ namespace GameDev_Assignment2.Properties {
         internal static System.IO.UnmanagedMemoryStream oranje3 {
             get {
                 return ResourceManager.GetStream("oranje3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Oranje5 {
+            get {
+                object obj = ResourceManager.GetObject("Oranje5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -1633,6 +1693,16 @@ namespace GameDev_Assignment2.Properties {
         internal static System.IO.UnmanagedMemoryStream pers3 {
             get {
                 return ResourceManager.GetStream("pers3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pers5 {
+            get {
+                object obj = ResourceManager.GetObject("Pers5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -1767,6 +1837,16 @@ namespace GameDev_Assignment2.Properties {
         internal static System.IO.UnmanagedMemoryStream ses3 {
             get {
                 return ResourceManager.GetStream("ses3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ses5 {
+            get {
+                object obj = ResourceManager.GetObject("Ses5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -2003,6 +2083,16 @@ namespace GameDev_Assignment2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Vinger5 {
+            get {
+                object obj = ResourceManager.GetObject("Vinger5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Vingerr {
             get {
                 object obj = ResourceManager.GetObject("Vingerr", resourceCulture);
@@ -2016,6 +2106,16 @@ namespace GameDev_Assignment2.Properties {
         internal static System.IO.UnmanagedMemoryStream voet3 {
             get {
                 return ResourceManager.GetStream("voet3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Voet5 {
+            get {
+                object obj = ResourceManager.GetObject("Voet5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

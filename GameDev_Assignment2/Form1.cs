@@ -33,7 +33,9 @@ namespace GameDev_Assignment2
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Form4 game = new Form4();
+            game.Show();
+            Visible = false;
         }
     }
 }
