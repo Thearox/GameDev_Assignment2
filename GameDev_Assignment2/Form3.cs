@@ -28,5 +28,31 @@ namespace GameDev_Assignment2
         {
 
         }
+
+        private void bodyButton_Click(object sender, EventArgs e)
+        {
+            BodyParts bodyParts = new BodyParts();
+            bodyParts.Show();
+            Visible = false;
+        }
+
+        private void animalButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void coloursButton_Click(object sender, EventArgs e)
+        {
+            Colors c3 = new Colors();
+            c3.Show();
+            Visible = false;
+        }
+
+        private void colourss_Click(object sender, EventArgs e)
+        {
+            Numbers n3 = new Numbers();
+            n3.Show();
+            Visible = false;
+        }
     }
 }

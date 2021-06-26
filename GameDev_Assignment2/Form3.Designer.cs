@@ -36,6 +36,7 @@ namespace GameDev_Assignment2
             this.coloursButton = new System.Windows.Forms.Button();
             this.objectbackButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.colourss = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // animalButton
@@ -47,6 +48,7 @@ namespace GameDev_Assignment2
             this.animalButton.Size = new System.Drawing.Size(75, 75);
             this.animalButton.TabIndex = 0;
             this.animalButton.UseVisualStyleBackColor = true;
+            this.animalButton.Click += new System.EventHandler(this.animalButton_Click);
             // 
             // fruitsButton
             // 
@@ -72,21 +74,23 @@ namespace GameDev_Assignment2
             // 
             this.bodyButton.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.obBody;
             this.bodyButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bodyButton.Location = new System.Drawing.Point(336, 256);
+            this.bodyButton.Location = new System.Drawing.Point(288, 256);
             this.bodyButton.Name = "bodyButton";
             this.bodyButton.Size = new System.Drawing.Size(75, 75);
             this.bodyButton.TabIndex = 3;
             this.bodyButton.UseVisualStyleBackColor = true;
+            this.bodyButton.Click += new System.EventHandler(this.bodyButton_Click);
             // 
             // coloursButton
             // 
             this.coloursButton.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.obColour;
             this.coloursButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.coloursButton.Location = new System.Drawing.Point(482, 256);
+            this.coloursButton.Location = new System.Drawing.Point(411, 256);
             this.coloursButton.Name = "coloursButton";
             this.coloursButton.Size = new System.Drawing.Size(75, 75);
             this.coloursButton.TabIndex = 4;
             this.coloursButton.UseVisualStyleBackColor = true;
+            this.coloursButton.Click += new System.EventHandler(this.coloursButton_Click);
             // 
             // objectbackButton
             // 
@@ -110,6 +114,17 @@ namespace GameDev_Assignment2
             this.label1.Size = new System.Drawing.Size(250, 50);
             this.label1.TabIndex = 6;
             // 
+            // colourss
+            // 
+            this.colourss.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Numberss;
+            this.colourss.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.colourss.Location = new System.Drawing.Point(533, 256);
+            this.colourss.Name = "colourss";
+            this.colourss.Size = new System.Drawing.Size(75, 75);
+            this.colourss.TabIndex = 7;
+            this.colourss.UseVisualStyleBackColor = true;
+            this.colourss.Click += new System.EventHandler(this.colourss_Click);
+            // 
             // Words
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -117,6 +132,7 @@ namespace GameDev_Assignment2
             this.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.IMG_20210615_WA0015;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(884, 711);
+            this.Controls.Add(this.colourss);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.objectbackButton);
             this.Controls.Add(this.coloursButton);
@@ -141,5 +157,6 @@ namespace GameDev_Assignment2
         private System.Windows.Forms.Button coloursButton;
         private System.Windows.Forms.Button objectbackButton;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button colourss;
     }
 }

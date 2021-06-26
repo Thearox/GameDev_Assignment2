@@ -124,9 +124,6 @@
   <data name="eforeend" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\audio\eforeend.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="fforflamink" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\audio\fforflamink.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Huis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\Huis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,8 +148,8 @@
   <data name="Huis1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\Huis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Neus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\photos\Neus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Uurglas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\Uurglas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="V" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\V.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -168,9 +165,6 @@
   </data>
   <data name="LearnWords" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LearnWords.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rforring" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\audio\rforring.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="colours" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\colours.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,12 +190,6 @@
   <data name="K" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\K.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="uforuurglas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\audio\uforuurglas.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Ys" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\photos\Ys.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Z" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Z.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -223,17 +211,17 @@
   <data name="Appel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\Appel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Uurglas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\photos\Uurglas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="aforappel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\aforappel.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="uforuurglas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\uforuurglas.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="wforwater" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\audio\wforwater.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Pan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\Pan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bforbed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\audio\bforbed.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="dfordeur" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\audio\dfordeur.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -247,11 +235,17 @@
   <data name="M" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\M.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Neus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\Neus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Q.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="A" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jforjas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\jforjas.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="yforys" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\audio\yforys.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -271,11 +265,14 @@
   <data name="Sop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\Sop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pforpan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\audio\pforpan.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Neus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\Neus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="H" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\H.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nforneus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\audio\nforneus.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -295,11 +292,11 @@
   <data name="B" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pforpan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\pforpan.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\X.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Oor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\photos\Oor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Kar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\Kar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -316,8 +313,14 @@
   <data name="Vuur" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\Vuur.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="obColour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obColour.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Back.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quisling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\Quisling.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="oforoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\audio\oforoor.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -346,8 +349,8 @@
   <data name="Flamink" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\Flamink.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Neus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\photos\Neus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Oor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\Oor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="splashv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\splashv2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -355,14 +358,14 @@
   <data name="Jas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\Jas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Quisling" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\photos\Quisling.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Xilofoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\photos\Xilofoon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rforring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\rforring.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Zero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\Zero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\I.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="U" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\U.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -370,8 +373,8 @@
   <data name="kforkar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\audio\kforkar.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="S" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\S.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bforbed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\bforbed.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="C" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\C.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -379,8 +382,8 @@
   <data name="J" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\J.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="aforappel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\audio\aforappel.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Xilofoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\Xilofoon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Muur" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\Muur.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -388,16 +391,196 @@
   <data name="E" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\E.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="I" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\I.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ys" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\Ys.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Eend" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\Eend.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jforjas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\audio\jforjas.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="fforflamink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\fforflamink.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="obColour" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\obColour.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Armm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Armm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Numberss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Numberss.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Geell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Geell.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Witt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Witt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pinkk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pinkk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oranjee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oranjee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rooii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rooii.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Groenn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Groenn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blouu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blouu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Perss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Perss.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bruinn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bruinn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Swartt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Swartt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tienn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tienn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Negee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Negee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Agg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Agg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sess" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sess.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sewee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sewee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vierr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vierr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Driee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Driee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vyff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vyff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tweee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tweee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eenn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eenn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oogg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vingerr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vingerr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nekk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nekk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mondd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mondd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Neuss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Neuss.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oorr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oorr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Voett" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voett.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Handd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Handd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beenn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beenn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ag3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ag3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arm3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\arm3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="been3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\been3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blou3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blou3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bruin3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bruin3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="drie3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drie3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="een3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\een3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="geel3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\geel3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groen3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\groen3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hand3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\hand3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mond3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\mond3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nege3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nege3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nek3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\nek3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="neus3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\neus3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oog3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\oog3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\oor3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oranje3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oranje3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pers3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pers3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pink3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pink3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rooi3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rooi3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ses3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ses3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sewe3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sewe3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="swart3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swart3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tien3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tien3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="twee3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twee3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vier3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vier3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vinger3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\vinger3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="voet3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\voet3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vyf3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vyf3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wit3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wit3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

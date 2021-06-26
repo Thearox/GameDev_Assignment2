@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BodyParts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BodyParts.Designer.cs">
+      <DependentUpon>BodyParts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Colors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Colors.Designer.cs">
+      <DependentUpon>Colors.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +76,12 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Numbers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numbers.Designer.cs">
+      <DependentUpon>Numbers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Splash Screen.cs">
@@ -72,6 +90,12 @@
     <Compile Include="Splash Screen.Designer.cs">
       <DependentUpon>Splash Screen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BodyParts.resx">
+      <DependentUpon>BodyParts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Colors.resx">
+      <DependentUpon>Colors.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -80,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numbers.resx">
+      <DependentUpon>Numbers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -358,6 +385,249 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\splashv2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Armm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Numberss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Geell.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Witt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pinkk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oranjee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rooii.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Groenn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blouu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bruinn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Swartt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tienn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Negee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sess.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sewee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vierr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Driee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vyff.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tweee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eenn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oogg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vingerr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nekk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mondd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Neuss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oorr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voett.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Handd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beenn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\arm3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\been3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\hand3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\voet3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\neus3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\oor3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\mond3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\nek3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\vinger3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\oog3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ag.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\een.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drie.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vyf.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vier.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twee.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tien.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sewe.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ses.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nege.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rooi.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swart.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pers.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blou.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bruin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groen.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oranje.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ag3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\een3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drie3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vyf3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vier3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twee3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tien3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sewe3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ses3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nege3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rooi3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swart3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wit3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pers3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blou3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bruin3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geel3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groen3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oranje3.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
