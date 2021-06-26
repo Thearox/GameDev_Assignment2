@@ -59,6 +59,7 @@ namespace GameDev_Assignment2
             this.fruitsButton.Size = new System.Drawing.Size(75, 75);
             this.fruitsButton.TabIndex = 1;
             this.fruitsButton.UseVisualStyleBackColor = true;
+            this.fruitsButton.Click += new System.EventHandler(this.fruitsButton_Click);
             // 
             // objectsButton
             // 
@@ -69,6 +70,7 @@ namespace GameDev_Assignment2
             this.objectsButton.Size = new System.Drawing.Size(75, 75);
             this.objectsButton.TabIndex = 2;
             this.objectsButton.UseVisualStyleBackColor = true;
+            this.objectsButton.Click += new System.EventHandler(this.objectsButton_Click);
             // 
             // bodyButton
             // 
@@ -141,6 +143,7 @@ namespace GameDev_Assignment2
             this.Controls.Add(this.fruitsButton);
             this.Controls.Add(this.animalButton);
             this.Name = "Words";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);

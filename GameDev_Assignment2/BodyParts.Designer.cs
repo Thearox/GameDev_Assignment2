@@ -41,6 +41,7 @@ namespace GameDev_Assignment2
             this.vingerr = new System.Windows.Forms.Button();
             this.oogg = new System.Windows.Forms.Button();
             this.objectbackButtonbp = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -56,7 +57,7 @@ namespace GameDev_Assignment2
             // 
             this.beenn.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Beenn;
             this.beenn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.beenn.Location = new System.Drawing.Point(394, 23);
+            this.beenn.Location = new System.Drawing.Point(283, 116);
             this.beenn.Name = "beenn";
             this.beenn.Size = new System.Drawing.Size(135, 135);
             this.beenn.TabIndex = 3;
@@ -67,7 +68,7 @@ namespace GameDev_Assignment2
             // 
             this.armm.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Armm;
             this.armm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.armm.Location = new System.Drawing.Point(122, 23);
+            this.armm.Location = new System.Drawing.Point(94, 116);
             this.armm.Name = "armm";
             this.armm.Size = new System.Drawing.Size(135, 135);
             this.armm.TabIndex = 4;
@@ -78,7 +79,7 @@ namespace GameDev_Assignment2
             // 
             this.handd.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Handd;
             this.handd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.handd.Location = new System.Drawing.Point(663, 23);
+            this.handd.Location = new System.Drawing.Point(471, 116);
             this.handd.Name = "handd";
             this.handd.Size = new System.Drawing.Size(135, 135);
             this.handd.TabIndex = 5;
@@ -89,7 +90,7 @@ namespace GameDev_Assignment2
             // 
             this.voett.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Voett;
             this.voett.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.voett.Location = new System.Drawing.Point(122, 197);
+            this.voett.Location = new System.Drawing.Point(655, 116);
             this.voett.Name = "voett";
             this.voett.Size = new System.Drawing.Size(135, 135);
             this.voett.TabIndex = 6;
@@ -100,7 +101,7 @@ namespace GameDev_Assignment2
             // 
             this.neuss.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Neuss;
             this.neuss.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.neuss.Location = new System.Drawing.Point(394, 197);
+            this.neuss.Location = new System.Drawing.Point(94, 297);
             this.neuss.Name = "neuss";
             this.neuss.Size = new System.Drawing.Size(135, 135);
             this.neuss.TabIndex = 7;
@@ -111,7 +112,7 @@ namespace GameDev_Assignment2
             // 
             this.oorr.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Oorr;
             this.oorr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.oorr.Location = new System.Drawing.Point(663, 197);
+            this.oorr.Location = new System.Drawing.Point(283, 297);
             this.oorr.Name = "oorr";
             this.oorr.Size = new System.Drawing.Size(135, 135);
             this.oorr.TabIndex = 8;
@@ -122,7 +123,7 @@ namespace GameDev_Assignment2
             // 
             this.mondd.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Mondd;
             this.mondd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.mondd.Location = new System.Drawing.Point(122, 369);
+            this.mondd.Location = new System.Drawing.Point(471, 297);
             this.mondd.Name = "mondd";
             this.mondd.Size = new System.Drawing.Size(135, 135);
             this.mondd.TabIndex = 9;
@@ -133,7 +134,7 @@ namespace GameDev_Assignment2
             // 
             this.nekk.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Nekk;
             this.nekk.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.nekk.Location = new System.Drawing.Point(394, 369);
+            this.nekk.Location = new System.Drawing.Point(655, 297);
             this.nekk.Name = "nekk";
             this.nekk.Size = new System.Drawing.Size(135, 135);
             this.nekk.TabIndex = 10;
@@ -144,7 +145,7 @@ namespace GameDev_Assignment2
             // 
             this.vingerr.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Vingerr;
             this.vingerr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.vingerr.Location = new System.Drawing.Point(663, 369);
+            this.vingerr.Location = new System.Drawing.Point(283, 472);
             this.vingerr.Name = "vingerr";
             this.vingerr.Size = new System.Drawing.Size(135, 135);
             this.vingerr.TabIndex = 11;
@@ -155,7 +156,7 @@ namespace GameDev_Assignment2
             // 
             this.oogg.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Oogg;
             this.oogg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.oogg.Location = new System.Drawing.Point(394, 542);
+            this.oogg.Location = new System.Drawing.Point(471, 472);
             this.oogg.Name = "oogg";
             this.oogg.Size = new System.Drawing.Size(135, 135);
             this.oogg.TabIndex = 12;
@@ -166,12 +167,22 @@ namespace GameDev_Assignment2
             // 
             this.objectbackButtonbp.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Back;
             this.objectbackButtonbp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.objectbackButtonbp.Location = new System.Drawing.Point(48, 609);
+            this.objectbackButtonbp.Location = new System.Drawing.Point(12, 654);
             this.objectbackButtonbp.Name = "objectbackButtonbp";
             this.objectbackButtonbp.Size = new System.Drawing.Size(65, 45);
             this.objectbackButtonbp.TabIndex = 13;
             this.objectbackButtonbp.UseVisualStyleBackColor = true;
             this.objectbackButtonbp.Click += new System.EventHandler(this.objectbackButtonbp_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Image = global::GameDev_Assignment2.Properties.Resources.Body;
+            this.label1.Location = new System.Drawing.Point(363, 34);
+            this.label1.MinimumSize = new System.Drawing.Size(169, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(169, 50);
+            this.label1.TabIndex = 14;
             // 
             // BodyParts
             // 
@@ -180,6 +191,7 @@ namespace GameDev_Assignment2
             this.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.IMG_20210615_WA0015;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(884, 711);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.objectbackButtonbp);
             this.Controls.Add(this.oogg);
             this.Controls.Add(this.vingerr);
@@ -193,8 +205,10 @@ namespace GameDev_Assignment2
             this.Controls.Add(this.beenn);
             this.Controls.Add(this.button1);
             this.Name = "BodyParts";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BodyParts";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -212,5 +226,6 @@ namespace GameDev_Assignment2
         private System.Windows.Forms.Button vingerr;
         private System.Windows.Forms.Button oogg;
         private System.Windows.Forms.Button objectbackButtonbp;
+        private System.Windows.Forms.Label label1;
     }
 }

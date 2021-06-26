@@ -38,9 +38,9 @@ namespace GameDev_Assignment2
             // 
             this.progressBar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(183)))));
             this.progressBar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.progressBar1.Location = new System.Drawing.Point(299, 313);
+            this.progressBar1.Location = new System.Drawing.Point(278, 317);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(164, 12);
+            this.progressBar1.Size = new System.Drawing.Size(187, 10);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 0;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
@@ -56,7 +56,7 @@ namespace GameDev_Assignment2
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.splashv2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(780, 393);
+            this.ClientSize = new System.Drawing.Size(740, 360);
             this.Controls.Add(this.progressBar1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Splash_Screen";

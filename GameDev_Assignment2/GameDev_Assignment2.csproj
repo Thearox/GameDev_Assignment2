@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnimalForm.Designer.cs">
+      <DependentUpon>AnimalForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BodyParts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,11 +82,23 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="FruitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FruitForm.Designer.cs">
+      <DependentUpon>FruitForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Numbers.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Numbers.Designer.cs">
       <DependentUpon>Numbers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObjectForm.Designer.cs">
+      <DependentUpon>ObjectForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +108,9 @@
     <Compile Include="Splash Screen.Designer.cs">
       <DependentUpon>Splash Screen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AnimalForm.resx">
+      <DependentUpon>AnimalForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BodyParts.resx">
       <DependentUpon>BodyParts.cs</DependentUpon>
     </EmbeddedResource>
@@ -105,8 +126,14 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FruitForm.resx">
+      <DependentUpon>FruitForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Numbers.resx">
       <DependentUpon>Numbers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectForm.resx">
+      <DependentUpon>ObjectForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -628,6 +655,204 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\oranje3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\aHond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\aKat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\aKoei.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\aLeeu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\aOlifant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\aPerd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\aSkaap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\aSlang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\aVark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\aVoel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\oBril.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\oDeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\oFoon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\oHuis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\oKar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\oMotorfiets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\oRekenaar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\oSleutel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\oStoel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\oTafel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\fAppel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\fDruif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\fLemoen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\fPeer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\fPerske.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\fPiesang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\fPruim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\fPynappel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\fTamatie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\fVy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\aHond.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\aKat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\aKoei.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\aLeeu.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\aOlifant.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\aPerd.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\aSkaap.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\aSlang.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\aVark.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\aVoel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\fAppel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\fDruif.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\fLemoen.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\fPeer.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\fPerske.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\fPiesang.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\fPruim.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\fPynappel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\fTamatie.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\fVy.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\oBril.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\oDeur.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\oFoon.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\oHuis.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\oKar.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\oMotorfiets.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\oRekenaar.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\oSleutel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\oStoel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\oTafel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\Animals.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\Body.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\Color.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\Numbers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\Objects.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

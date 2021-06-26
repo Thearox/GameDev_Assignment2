@@ -38,7 +38,9 @@ namespace GameDev_Assignment2
 
         private void animalButton_Click(object sender, EventArgs e)
         {
-
+            AnimalForm a2 = new AnimalForm();
+            a2.Show();
+            this.Hide();
         }
 
         private void coloursButton_Click(object sender, EventArgs e)
@@ -53,6 +55,20 @@ namespace GameDev_Assignment2
             Numbers n3 = new Numbers();
             n3.Show();
             Visible = false;
+        }
+
+        private void fruitsButton_Click(object sender, EventArgs e)
+        {
+            FruitForm a2 = new FruitForm();
+            a2.Show();
+            this.Hide();
+        }
+
+        private void objectsButton_Click(object sender, EventArgs e)
+        {
+            ObjectForm a2 = new ObjectForm();
+            a2.Show();
+            this.Hide();
         }
     }
 }

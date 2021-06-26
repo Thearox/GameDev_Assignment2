@@ -50,3 +50,9 @@ C:\Users\Lenovo\Source\Repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\G
 C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.BodyParts.resources
 C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.Colors.resources
 C:\Users\Lenovo\source\repos\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.Numbers.resources
+C:\Users\User\Documents\Github\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.BodyParts.resources
+C:\Users\User\Documents\Github\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.Colors.resources
+C:\Users\User\Documents\Github\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.Numbers.resources
+C:\Users\User\Documents\Github\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.AnimalForm.resources
+C:\Users\User\Documents\Github\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.ObjectForm.resources
+C:\Users\User\Documents\Github\GameDev_Assignment2\GameDev_Assignment2\obj\Debug\GameDev_Assignment2.FruitForm.resources

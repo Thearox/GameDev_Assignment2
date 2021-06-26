@@ -336,7 +336,7 @@ namespace GameDev_Assignment2
             // 
             this.alphabetBackButton.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Back;
             this.alphabetBackButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.alphabetBackButton.Location = new System.Drawing.Point(30, 638);
+            this.alphabetBackButton.Location = new System.Drawing.Point(12, 654);
             this.alphabetBackButton.Name = "alphabetBackButton";
             this.alphabetBackButton.Size = new System.Drawing.Size(65, 45);
             this.alphabetBackButton.TabIndex = 27;
@@ -379,6 +379,7 @@ namespace GameDev_Assignment2
             this.Controls.Add(this.alphabetButton2);
             this.Controls.Add(this.alphabetButton1);
             this.Name = "Alphabet";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alphabet";
             this.Load += new System.EventHandler(this.Alphabet_Load);
             this.ResumeLayout(false);

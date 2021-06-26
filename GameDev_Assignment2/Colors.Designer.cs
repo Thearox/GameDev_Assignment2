@@ -40,13 +40,14 @@ namespace GameDev_Assignment2
             this.geell = new System.Windows.Forms.Button();
             this.witt = new System.Windows.Forms.Button();
             this.objectbackButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // swartt
             // 
             this.swartt.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Swartt;
             this.swartt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.swartt.Location = new System.Drawing.Point(128, 27);
+            this.swartt.Location = new System.Drawing.Point(94, 116);
             this.swartt.Name = "swartt";
             this.swartt.Size = new System.Drawing.Size(135, 135);
             this.swartt.TabIndex = 0;
@@ -57,7 +58,7 @@ namespace GameDev_Assignment2
             // 
             this.bruinn.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Bruinn;
             this.bruinn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bruinn.Location = new System.Drawing.Point(395, 27);
+            this.bruinn.Location = new System.Drawing.Point(283, 116);
             this.bruinn.Name = "bruinn";
             this.bruinn.Size = new System.Drawing.Size(135, 135);
             this.bruinn.TabIndex = 1;
@@ -68,7 +69,7 @@ namespace GameDev_Assignment2
             // 
             this.blouu.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Blouu;
             this.blouu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.blouu.Location = new System.Drawing.Point(668, 27);
+            this.blouu.Location = new System.Drawing.Point(471, 116);
             this.blouu.Name = "blouu";
             this.blouu.Size = new System.Drawing.Size(135, 135);
             this.blouu.TabIndex = 2;
@@ -79,7 +80,7 @@ namespace GameDev_Assignment2
             // 
             this.perss.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Perss;
             this.perss.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.perss.Location = new System.Drawing.Point(128, 196);
+            this.perss.Location = new System.Drawing.Point(655, 116);
             this.perss.Name = "perss";
             this.perss.Size = new System.Drawing.Size(135, 135);
             this.perss.TabIndex = 3;
@@ -90,7 +91,7 @@ namespace GameDev_Assignment2
             // 
             this.groenn.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Groenn;
             this.groenn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.groenn.Location = new System.Drawing.Point(395, 196);
+            this.groenn.Location = new System.Drawing.Point(94, 297);
             this.groenn.Name = "groenn";
             this.groenn.Size = new System.Drawing.Size(135, 135);
             this.groenn.TabIndex = 4;
@@ -101,7 +102,7 @@ namespace GameDev_Assignment2
             // 
             this.rooii.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Rooii;
             this.rooii.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.rooii.Location = new System.Drawing.Point(668, 196);
+            this.rooii.Location = new System.Drawing.Point(283, 297);
             this.rooii.Name = "rooii";
             this.rooii.Size = new System.Drawing.Size(135, 135);
             this.rooii.TabIndex = 5;
@@ -112,7 +113,7 @@ namespace GameDev_Assignment2
             // 
             this.oranjee.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Oranjee;
             this.oranjee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.oranjee.Location = new System.Drawing.Point(128, 365);
+            this.oranjee.Location = new System.Drawing.Point(471, 297);
             this.oranjee.Name = "oranjee";
             this.oranjee.Size = new System.Drawing.Size(135, 135);
             this.oranjee.TabIndex = 6;
@@ -123,7 +124,7 @@ namespace GameDev_Assignment2
             // 
             this.pinkk.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Pinkk;
             this.pinkk.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pinkk.Location = new System.Drawing.Point(395, 365);
+            this.pinkk.Location = new System.Drawing.Point(655, 297);
             this.pinkk.Name = "pinkk";
             this.pinkk.Size = new System.Drawing.Size(135, 135);
             this.pinkk.TabIndex = 7;
@@ -134,7 +135,7 @@ namespace GameDev_Assignment2
             // 
             this.geell.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Geell;
             this.geell.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.geell.Location = new System.Drawing.Point(668, 365);
+            this.geell.Location = new System.Drawing.Point(283, 472);
             this.geell.Name = "geell";
             this.geell.Size = new System.Drawing.Size(135, 135);
             this.geell.TabIndex = 8;
@@ -145,7 +146,7 @@ namespace GameDev_Assignment2
             // 
             this.witt.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.Witt;
             this.witt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.witt.Location = new System.Drawing.Point(395, 530);
+            this.witt.Location = new System.Drawing.Point(471, 472);
             this.witt.Name = "witt";
             this.witt.Size = new System.Drawing.Size(135, 135);
             this.witt.TabIndex = 9;
@@ -163,6 +164,16 @@ namespace GameDev_Assignment2
             this.objectbackButton.UseVisualStyleBackColor = true;
             this.objectbackButton.Click += new System.EventHandler(this.objectbackButton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Image = global::GameDev_Assignment2.Properties.Resources.Color;
+            this.label1.Location = new System.Drawing.Point(363, 34);
+            this.label1.MinimumSize = new System.Drawing.Size(169, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(169, 50);
+            this.label1.TabIndex = 12;
+            // 
             // Colors
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,6 +181,7 @@ namespace GameDev_Assignment2
             this.BackgroundImage = global::GameDev_Assignment2.Properties.Resources.IMG_20210615_WA0015;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(884, 711);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.objectbackButton);
             this.Controls.Add(this.witt);
             this.Controls.Add(this.geell);
@@ -182,8 +194,10 @@ namespace GameDev_Assignment2
             this.Controls.Add(this.bruinn);
             this.Controls.Add(this.swartt);
             this.Name = "Colors";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Colors";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -200,5 +214,6 @@ namespace GameDev_Assignment2
         private System.Windows.Forms.Button geell;
         private System.Windows.Forms.Button witt;
         private System.Windows.Forms.Button objectbackButton;
+        private System.Windows.Forms.Label label1;
     }
 }
