@@ -94,6 +94,12 @@
     <Compile Include="Form5.Designer.cs">
       <DependentUpon>Form5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
     <Compile Include="FruitForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FruitForm.resx">
       <DependentUpon>FruitForm.cs</DependentUpon>
@@ -901,6 +910,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Oog5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\giBanana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\giBlouHuis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\giOlifantQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\giRooiKar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\giTweeVark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\TestSpelling.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photos\TestWords.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audio\MouseClick.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

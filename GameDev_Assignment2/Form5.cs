@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -110,6 +111,18 @@ namespace GameDev_Assignment2
             }
         }
 
-       
+        private void alphabetBackButton_Click(object sender, EventArgs e)
+        {
+            SoundPlayer splayer = new SoundPlayer(Properties.Resources.MouseClick);
+            splayer.Play();
+            Form4 a2 = new Form4();
+            a2.Show();
+            this.Hide();
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

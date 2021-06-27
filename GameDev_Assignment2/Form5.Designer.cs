@@ -343,6 +343,7 @@ namespace GameDev_Assignment2
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(583, 338);
             this.panel6.TabIndex = 4;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // button17
             // 
@@ -485,6 +486,7 @@ namespace GameDev_Assignment2
             this.alphabetBackButton.Size = new System.Drawing.Size(65, 45);
             this.alphabetBackButton.TabIndex = 28;
             this.alphabetBackButton.UseVisualStyleBackColor = true;
+            this.alphabetBackButton.Click += new System.EventHandler(this.alphabetBackButton_Click);
             // 
             // pictureBox6
             // 
@@ -510,6 +512,7 @@ namespace GameDev_Assignment2
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel4);
             this.Name = "Form5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5";
             this.Load += new System.EventHandler(this.Form5_Load);
             this.panel1.ResumeLayout(false);

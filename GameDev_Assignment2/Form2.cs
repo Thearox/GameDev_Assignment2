@@ -60,6 +60,8 @@ namespace GameDev_Assignment2
 
         private void alphabetBackButton_Click_1(object sender, EventArgs e)
         {
+            SoundPlayer splayer = new SoundPlayer(Properties.Resources.MouseClick);
+            splayer.Play();
             Form1 a2 = new Form1();
             a2.Show();
             this.Hide();

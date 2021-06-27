@@ -20,6 +20,8 @@ namespace GameDev_Assignment2
 
         private void objectbackButton_Click(object sender, EventArgs e)
         {
+            SoundPlayer splayer = new SoundPlayer(Properties.Resources.MouseClick);
+            splayer.Play();
             Words w5 = new Words();
             w5.Show();
             Visible = false;
